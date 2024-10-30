@@ -29,7 +29,8 @@ In this project, I set up two virtual machines (VMs): one running Windows Server
 - Start by heading to Microsoft Azure and creating a resource group.
 </p>
 
-![image](https://github.com/user-attachments/assets/ecd6b747-791a-4fab-b70a-060057ecebf0)
+![1STSCREENSHOT-ecd6b747-791a-4fab-b70a-060057ecebf0](https://github.com/user-attachments/assets/73903fbf-25ec-44a3-b65f-c03e75c36e51)
+
 
 
 2. Create a Virtual Network:
@@ -62,7 +63,8 @@ In this project, I set up two virtual machines (VMs): one running Windows Server
 
 ![image](https://github.com/user-attachments/assets/b39c7903-30b7-4064-ab6b-fe4a7abdfdbf)
 
-![image](https://github.com/user-attachments/assets/5a6d5e06-91a0-4e76-91e6-1945abb8ff2f)
+![2NDSCREENSHOT-5a6d5e06-91a0-4e76-91e6-1945abb8ff2f](https://github.com/user-attachments/assets/02b7870a-330e-4337-a489-10ce36d2cac7)
+
 
 <p>6. Configure Networking for Client:
 
@@ -74,14 +76,17 @@ In this project, I set up two virtual machines (VMs): one running Windows Server
 
 - Change the Domain Controller's private IP address from dynamic to static, as it will also function as a DNS server. This ensures the DNS configuration remains valid for the client.</p>
 
-![image](https://github.com/user-attachments/assets/a21af208-ca09-411e-ae32-cb65c3c6a910)
-![image](https://github.com/user-attachments/assets/3fbf5935-ac8f-488c-b848-f3010613d620)
+![3RDSCREENSHOT-a21af208-ca09-411e-ae32-cb65c3c6a910](https://github.com/user-attachments/assets/988874f0-1821-43a2-9953-71ba0f070928)
+
+![4THSCREENSHOT-3fbf5935-ac8f-488c-b848-f3010613d620](https://github.com/user-attachments/assets/0410e318-b62e-411e-b7af-6da6074f8bb3)
+
 
 <p>8. Remote Desktop Connection to Domain Controller:
 
 - Use Remote Desktop with the Domain Controller's public IP address and the login credentials set during VM configuration.</p>
 
-![image](https://github.com/user-attachments/assets/111958d5-2ce5-4da4-86f7-9a58823c977d)
+![5THSCREENSHOT-111958d5-2ce5-4da4-86f7-9a58823c977d](https://github.com/user-attachments/assets/241ac53d-688a-4d26-866d-eefeacef38d1)
+
 
 
 After logging into the Domain Controller, you should see the Server Manager screen displayed.
@@ -145,5 +150,6 @@ Next, we need to configure the client's DNS settings to point to the Domain Cont
 </p>
 
 ![image](https://github.com/user-attachments/assets/9b7f2a23-2948-42cd-b81b-f170d76ef569)
+
 
 
